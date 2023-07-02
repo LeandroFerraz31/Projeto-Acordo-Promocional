@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Acordo Promocional</title>
+</head>
+<body>
+    <h1>Acordos Promocionais</h1>
+  
+    <button id="acessar-lista-btn">Acessar Lista</button>
+    
+    <div id="acordos-lista" style="display: none;">
+      <!-- Aqui serão exibidos os acordos promocionais -->
+    </div>
+    
+    <button id="exportar-lista-btn">Exportar Lista</button>
+    
+    <form id="novo-acordo-form">
+      <h2>Novo Acordo</h2>
+      <input type="text" id="fornecedor-input" placeholder="Nome do Fornecedor" required>
+      <input type="text" id="produto-input" placeholder="Nome do Produto" required>
+      <input type="text" id="categoria-input" placeholder="Categoria" required>
+      <input type="text" id="evento-input" placeholder="Evento" required>
+      <input type="number" id="preco-input" placeholder="Preço" required>
+      <input type="date" id="data-input" required>
+      <input type="text" id="assinatura-input" placeholder="Assinatura" required>
+      <button type="submit">Criar Acordo</button>
+    </form>
+ <script src="app.js"></script>
+</body>
+</html>
